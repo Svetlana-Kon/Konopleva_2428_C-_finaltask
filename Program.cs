@@ -12,3 +12,7 @@ void PrintArray(string[] array)
     }
     Console.WriteLine();
 }
+
+string[] startArray = {"hello", "my", "friends", ":-)", "1234", "123", "!" };
+int count = 0;
+string[] finalArray = new string[startArray.Length];
