@@ -26,3 +26,8 @@ for (int i = 0; i < startArray.Length; i++)
     }
 }
 
+Console.Write("startArray = ");
+PrintArray(startArray);
+
+Console.Write("finalArray = ");
+PrintArray(finalArray);
