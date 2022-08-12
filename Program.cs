@@ -16,3 +16,13 @@ void PrintArray(string[] array)
 string[] startArray = {"hello", "my", "friends", ":-)", "1234", "123", "!" };
 int count = 0;
 string[] finalArray = new string[startArray.Length];
+
+for (int i = 0; i < startArray.Length; i++)
+{
+    if (startArray[i].Length <= 3)
+    {
+        finalArray[count] = startArray[i];
+        count++;
+    }
+}
+
